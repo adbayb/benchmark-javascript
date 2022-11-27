@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "benchmark-javascript-scenarios",
+	"name": "benchmark-javascript",
 	"version": "0.0.0",
 	"author": {
 		"name": "Ayoub Adib",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:adbayb/poc-module-federation.git"
+		"url": "git@github.com:adbayb/benchmark-javascript.git"
 	},
 	"license": "MIT",
 	"scripts": {
@@ -28,6 +28,9 @@
 	},
 	"prettier": "@adbayb/prettier-config",
 	"eslintConfig": {
-		"extends": "@adbayb"
+		"extends": "@adbayb",
+		"rules": {
+			"import/no-default-export": "off"
+		}
 	}
 }

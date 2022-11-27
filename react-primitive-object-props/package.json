@@ -1,0 +1,23 @@
+{
+  "name": "@benchmark-javascript/react-primitive-object-props",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "",
+  "scripts": {
+    "start": "pnpm start:primitive && pnpm start:object",
+    "start:primitive": "react-benchmark cases/primitive/index.tsx",
+    "start:object": "react-benchmark cases/object/index.tsx"
+  },
+  "keywords": [],
+  "author": "Ayoub Adib <adbayb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-benchmark": "5.1.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9"
+  }
+}
