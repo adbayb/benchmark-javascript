@@ -2,18 +2,19 @@
   "name": "@benchmark-javascript/react-primitive-object-props",
   "version": "0.0.0",
   "private": "true",
-  "description": "",
+  "description": "A primitive vs object props performance benchmark",
+  "source": "src/index.tsx",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.mjs",
   "scripts": {
-    "start": "pnpm start:primitive && pnpm start:object",
-    "start:primitive": "react-benchmark cases/primitive/index.tsx",
-    "start:object": "react-benchmark cases/object/index.tsx"
+    "start": "scripts serve public/index.html"
   },
   "keywords": [],
   "author": "Ayoub Adib <adbayb@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@emotion/css": "11.10.5",
     "react": "18.2.0",
-    "react-benchmark": "5.1.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
