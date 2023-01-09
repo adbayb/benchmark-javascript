@@ -1,0 +1,24 @@
+{
+  "name": "@benchmark-javascript/stylesheet-techniques-case-css-in-js",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "CSS-in-JS case performance benchmark",
+  "source": "src/index.tsx",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.mjs",
+  "scripts": {
+    "start": "scripts serve public/index.html"
+  },
+  "keywords": [],
+  "author": "Ayoub Adib <adbayb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/css": "11.10.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9"
+  }
+}

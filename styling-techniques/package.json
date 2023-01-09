@@ -1,0 +1,13 @@
+{
+    "name": "@benchmark-javascript/stylesheet-techniques",
+    "version": "0.0.0",
+    "private": "true",
+    "description": "Styling techniques performance benchmark",
+    "scripts": {
+      "start:stylesheet": "pnpm start --filter @benchmark-javascript/stylesheet-techniques-case-stylesheet"
+    },
+    "keywords": [],
+    "author": "Ayoub Adib <adbayb@gmail.com>",
+    "license": "MIT"
+  }
+  

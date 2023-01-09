@@ -1,0 +1,24 @@
+{
+  "name": "@benchmark-javascript/stylesheet-techniques-case-stylesheet",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "Stylesheet case performance benchmark",
+  "source": "src/index.tsx",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.mjs",
+  "scripts": {
+    "prestart": "mkdir -p dist && cp public/styles.css dist/styles.css",
+    "start": "pnpm prestart && scripts serve public/index.html"
+  },
+  "keywords": [],
+  "author": "Ayoub Adib <adbayb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9"
+  }
+}
